@@ -6,7 +6,7 @@ statement.
 The purpose of this software it to demonstrate and test my abilities to write and execute a simple python program. With this program
 I really wanted to dust off my python skills and start with something small that I can build on in the future.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/S6qGPVnl6-A)
 
 # Development Environment
 
