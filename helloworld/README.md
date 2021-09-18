@@ -10,10 +10,10 @@ I really wanted to dust off my python skills and start with something small that
 
 # Development Environment
 
-Visual Studio Code (VS Code)
-Python 3.9.2 64-bit
-Git
-GitHub
+* Visual Studio Code (VS Code)
+* Python 3.9.2 64-bit
+* Git
+* GitHub
 
 # Useful Websites
 
