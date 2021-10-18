@@ -1,0 +1,31 @@
+<%- include('./includes/head.ejs') %>
+<link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+    <%- include('./includes/nav.ejs') %>
+    <div class="main_header">
+        <h1 class="heading">Project Page</h1>
+    </div>
+
+    <hr class="main_hr">
+
+    <form action="/projects-searched" method="POST">
+        <h3>Search by language</h3>
+        <input type="text" id="searched" name="searched">
+        <button type="submit">Search</button>
+    </form>
+    
+    <div class="projects_container">
+        <% for (let project of projects) { %>
+            <div class="project_card">
+                <h2><%= project.name %></h2>
+                <hr>
+                <h3>Language: <%= project.language %></h3>
+                <a href="<%= project.githubUrl %>" target="blank">Link to code on GitHub</a>
+            </div>
+        <% } %>
+    </div>
+</body>
+<%- include('./includes/footer.ejs') %>
+</body>
+</html>

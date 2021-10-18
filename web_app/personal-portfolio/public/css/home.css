@@ -1,0 +1,18 @@
+.home_highlight{
+    color: rgb(0, 96, 221);
+}
+.about_me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about_me p {
+    max-width: 500px;
+    padding: 50px;
+}
+.experience p {
+    max-width: 500px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: -100px;
+}

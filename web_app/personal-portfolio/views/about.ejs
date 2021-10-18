@@ -1,0 +1,17 @@
+<%- include('./includes/head.ejs') %> 
+</head>
+<body>
+    <%- include('./includes/nav.ejs') %>
+    <div class="main_header">
+        <h1 class="heading">About Me</h1>
+    </div>
+    <hr class="main_hr">
+    <img src="" alt="">
+    <img src="<%= data.imageUrl %>" alt="image of <%= data.fname %>" class="about_me_img">
+    <p class="about_me_page_p">
+        <%= data.about_me %>
+    </p>
+</body>
+<%- include('./includes/footer.ejs') %>
+</body>
+</html>

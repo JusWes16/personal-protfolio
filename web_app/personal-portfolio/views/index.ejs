@@ -1,0 +1,26 @@
+<%- include('./includes/head.ejs') %>
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <%- include('./includes/nav.ejs') %>
+    <div class="main_header">
+        <h1 class="heading">My name is <%= data.fname %> <%= data.lname %>, and this is my <span class="home_highlight">Portfolio</span>.</h1>
+    </div>
+    <hr class="main_hr">
+    <div class="about_me">
+        <h1 class="heading home_highlight">About Me</h1>
+        <p><%= data.about_me %> <a href="/about" class="home_highlight">Read more here.</a> </p>
+    </div>
+    <hr class="main_hr">
+    <div class="experience">
+        <h1 class="heading home_highlight">Experience</h1>
+        <p>
+            Currently my experience in the field of Software Engineering begins and ends with 
+            my time in college. Before college I never thought this was the path I would take 
+            so naturally I have never worked in the space before. I am currently looking for an entry 
+            level or internship position.
+        </p>
+    </div>
+</body>
+<%- include('./includes/footer.ejs') %>
+</html>

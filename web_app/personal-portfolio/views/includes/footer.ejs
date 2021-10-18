@@ -1,0 +1,17 @@
+<footer class="main_footer">
+    <div class="footer_contact">
+        <h4>Contact me:</h4>
+        <p><span class="contact_title">Email:</span> <%= data.email %></p>
+        <p><span class="contact_title">Phone:</span> <%= data.phone %></p>
+        <p><span class="contact_title">LinkedIn:</span> <%= data.fname %> <%= data.lname %></p>
+        <p><span class="contact_title">Facebook:</span> <%= data.fname %> <%= data.lname %></p>
+    </div>
+    <div class="footer_nav">
+        <ul class="nav_items nav_items_footer">
+            <li><a href="/" class="nav_item_footer <%= path === '/' ? 'active' : '' %>">Home</a></li>
+            <li><a href="/projects" class="nav_item_footer <%= path === '/projects' ? 'active' : '' %>">Projects</a></li>
+            <li><a href="/experience" class="nav_item_footer <%= path === '/experience' ? 'active' : '' %>">Experience</a></li>
+            <li><a href="/about" class="nav_item_footer <%= path === '/about' ? 'active' : '' %>">About</a></li>
+        </ul>
+    </div>
+</footer>

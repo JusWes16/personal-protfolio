@@ -1,0 +1,12 @@
+<nav class="main_nav">
+    <div class="logo_container">
+        <a href="/" class=""><img src="images/logo.png" alt="site logo"></a>
+    </div>
+    <div class="nav_items_container">
+        <ul class="nav_items">
+            <li><a href="/" class="nav_item <%= path === '/' ? 'active' : '' %>">Home</a></li>
+            <li><a href="/projects" class="nav_item <%= path === '/projects' ? 'active' : '' %>">Projects</a></li>
+            <li><a href="/about" class="nav_item <%= path === '/about' ? 'active' : '' %>">About</a></li>
+        </ul>
+    </div>
+</nav>
