@@ -4,9 +4,7 @@ For this little project I wanted to take a look at the IMDb movies database foun
 This data set holds a lot of information about movies from Miss Jerry made in 1894 to modern films made in 2020. This information includes everything from gross income
 to cast. I love movies and so I wanted to take a look at this dataset to see what the trends are and whether or not I could find the answers to the questions I had.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Z3FD3peJ_hw)
 
 # Data Analysis Results
 
