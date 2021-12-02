@@ -8,9 +8,7 @@ The purpose of this program really is to demonstrate how to use SQL and basic Py
 is based around The Lord of the Rings, it can be implemented for any database for keeping track of individual people, for example, members of a family, members of a club or team, 
 or tenants at an apartment complex.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/6zbi6HQW4RA)
 
 # Relational Database
 

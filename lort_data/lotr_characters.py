@@ -12,8 +12,8 @@ cur = conn.cursor()
 #         )
 #     """)
 
-# c.execute("INSERT INTO characters VALUES ('Gandalf', 'Istar (Wizard)', 'alive', 'https://static.wikia.nocookie.net/lotr/images/e/e7/Gandalf_the_Grey.jpg/revision/latest?cb=20121110131754')")
-# c.execute("INSERT INTO characters VALUES ('Aragorn', 'Man (Dunedain)', 'dead', 'https://static.wikia.nocookie.net/lotr/images/b/b6/Aragorn_profile.jpg/revision/latest?cb=20170121121423')")
+# cur.execute("INSERT INTO characters VALUES ('Gandalf', 'Istar (Wizard)', 'alive', 'https://static.wikia.nocookie.net/lotr/images/e/e7/Gandalf_the_Grey.jpg/revision/latest?cb=20121110131754')")
+# cur.execute("INSERT INTO characters VALUES ('Aragorn', 'Man (Dunedain)', 'dead', 'https://static.wikia.nocookie.net/lotr/images/b/b6/Aragorn_profile.jpg/revision/latest?cb=20170121121423')")
 
 def add_character():
     name = input('Please enter the characters name: ').lower()
@@ -97,4 +97,4 @@ while continue_program:
         print('Come again soon!!')
         continue_program = False
     else:
-        print('Please ensure that your selection is a number between 1 and 5')
+        print('Please ensure that your selection is a number between 1 and 6')
